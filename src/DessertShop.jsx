@@ -99,9 +99,11 @@ export default function DessertShop() {
         <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
         <p className="text-gray-600">Netaji Nagar, Kurla West, Mumbai, Maharashtra</p>
         <p className="text-gray-600">Online Delivery Available 🚚</p>
-        <button className="mt-4 px-6 py-2 bg-green-500 text-white rounded-full hover:bg-green-600">
-          Order on WhatsApp
-        </button>
+        <a href="https://wa.me/917738770074?text=Hi%20I%20want%20to%20order%20a%20cake" target="_blank" rel="noopener noreferrer">
+          <button className="mt-4 px-6 py-2 bg-green-500 text-white rounded-full hover:bg-green-600">
+            Order on WhatsApp
+          </button>
+        </a>
       </section>
 
       {/* Footer */}
